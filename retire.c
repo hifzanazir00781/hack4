@@ -45,4 +45,9 @@ int main()
         totalInterestEarned = totalInterestEarned + interest;
         printf("|%5i|\t|$ %10.2f|\t|& %10.2f   |\n",i,interest,initialAmount); 
     }
+
+     printf("__________________________________________________\n");
+    printf("Total interest Earned = $ %f\n",totalInterestEarned);
+    printf("Total Nest Egg : $ %f\n",initialAmount);
+    return 0; 
 }
