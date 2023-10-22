@@ -29,4 +29,7 @@ int main()
     scanf("%f",&annualInflation);
     printf("Enter a number of year untile retirement:");
     scanf("%i",&retirementYear);
+
+    //change the year into month
+    month=retirementYear*12;
 }
