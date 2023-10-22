@@ -11,7 +11,6 @@
 int main()
 {
     //make variable according to program 
-
     float initialAmount, monthlyContributionAmount, annualReturn, annualInflation, balance;
     float interest, adjustInflationReturnRate, totalInterestEarned=0;
 
@@ -46,7 +45,8 @@ int main()
         printf("|%5i|\t|$ %10.2f|\t|& %10.2f   |\n",i,interest,initialAmount); 
     }
 
-     printf("__________________________________________________\n");
+    // print the result...
+    printf("__________________________________________________\n");
     printf("Total interest Earned = $ %f\n",totalInterestEarned);
     printf("Total Nest Egg : $ %f\n",initialAmount);
     return 0; 
