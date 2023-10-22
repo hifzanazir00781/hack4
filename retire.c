@@ -14,4 +14,7 @@ int main()
 
     float initialAmount, monthlyContributionAmount, annualReturn, annualInflation, balance;
     float interest, adjustInflationReturnRate, totalInterestEarned=0;
+
+    //year and month take in integer because they have no decimale point
+    int retirementYear, month;
 }
