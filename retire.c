@@ -8,3 +8,10 @@
 #include<stdio.h>
 #include<math.h>
 #include<stdlib.h>
+int main()
+{
+    //make variable according to program 
+
+    float initialAmount, monthlyContributionAmount, annualReturn, annualInflation, balance;
+    float interest, adjustInflationReturnRate, totalInterestEarned=0;
+}
