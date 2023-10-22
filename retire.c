@@ -32,4 +32,8 @@ int main()
 
     //change the year into month
     month=retirementYear*12;
+
+    //find adjust inflation and return rate
+    adjustInflationReturnRate = ((1 + annualReturn )/(1 + annualInflation)) - 1;
+    printf("|month|\t|Interset   |\t|Balance             |\n");
 }
