@@ -17,4 +17,16 @@ int main()
 
     //year and month take in integer because they have no decimale point
     int retirementYear, month;
+
+    //prompt the input from user
+    printf("Enter the initial Amount:");
+    scanf("%f",&initialAmount);
+    printf("How much money you can add on monthly base(monthly amount same over life of saving):");
+    scanf("%f",&monthlyContributionAmount);
+    printf("Average annual rate of return(on scale 0,1):");
+    scanf("%f",&annualReturn);
+    printf("Average rate of inflation(on scale 0,1):");
+    scanf("%f",&annualInflation);
+    printf("Enter a number of year untile retirement:");
+    scanf("%i",&retirementYear);
 }
