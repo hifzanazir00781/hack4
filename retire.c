@@ -36,4 +36,13 @@ int main()
     //find adjust inflation and return rate
     adjustInflationReturnRate = ((1 + annualReturn )/(1 + annualInflation)) - 1;
     printf("|month|\t|Interset   |\t|Balance             |\n");
+
+    //Using loop and repeate the loop according the number of month
+    //Find interest, number of months, amount/month and calculate total total interest and total Amount 
+    for(int i = 1; i<=month; i++){
+        interest=(adjustInflationReturnRate*initialAmount)/12;
+        initialAmount+= interest + monthlyContributionAmount;
+        totalInterestEarned = totalInterestEarned + interest;
+        printf("|%5i|\t|$ %10.2f|\t|& %10.2f   |\n",i,interest,initialAmount); 
+    }
 }
